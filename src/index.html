@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PEC1 - Laura Corral López</title>
+  <link rel="icon" href="images/new_logo.ico" sizes="any">
+  <link rel="icon" href="images/new_logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <script defer type="module" src="app.js"></script>
+
+</head>
+
+<body>
+
+  <header>
+    <div class="nav-bar">
+        <a class="logo" href="#">
+            <img src="./images/new_logo.svg" alt="logo escudo" loading="lazy">
+            <p>Nigüelas</p>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="./categories.html">Categorías</a></li>
+                <li><a href="./presentation.html">Presentación</a></li>
+                <li><a href="./links.html">Enlaces</a></li>
+            </ul>
+        </nav>
+    </div>
+  </header> 
+
+  <main>
+    <div class="home-presentation">
+      <h1>Nigüelas - Balcón del Valle</h1>
+        <div class="white-container">
+            <p id="welcomeMessage"></p>
+            <p>Bienvenidos al sitio web del pequeño pueblo de Nigüelas, situado en el precioso Valle de Lecrín en Granada.
+              Situado entre la capital y la costa, cuenta con diferentes atractivos que le convierten en uno de los pueblos
+              más visitados de la provincia.
+
+              En esta página ofrecemos información para todas aquellas personas interesadas en disfrutar de un día de turismo.
+            </p>
+        </div>
+
+        <div class="principal-img">
+          <img srcset="images/imagen-pueblo-480.webp 480w,
+                      images/imagen-pueblo-800.webp 800w,
+                      images/imagen-pueblo-1200.webp 1200w"
+               sizes="(max-width: 576px) 480px,
+                      (max-width: 768px) 800px,
+                      1200px"
+               src="images/imagen-pueblo-1200.webp" alt="Imagen de Nigüelas" loading="lazy">
+        </div>
+
+        <div class="white-container">
+          <h2>Enlaces</h2>
+          <div>
+            <div class="link-container">
+                <a href="./categories.html">
+                  <picture class="img-adapted">
+                    <source srcset="./images/explore.webp" type="image/webp">
+                    <source srcset="./images/explore.jpg" type="image/jpeg"> 
+                    <img src="./images/explore.jpg" alt="explorar el pueblo" loading="lazy">
+                  </picture>
+                    <p>Categorías</p>
+                    <p>Listado de lugares clave para vistar</p>
+                </a>
+            </div>
+            <div class="link-container">
+              <a href="./presentation.html">
+                <picture class="img-adapted">
+                  <source srcset="./images/presentation.webp" type="image/webp">
+                  <source srcset="./images/presentation.jpg" type="image/jpeg"> 
+                  <img src="./images/presentation.jpg" alt="presentación del pueblo" loading="lazy">
+                </picture>
+                  <p>Presentación</p>
+                  <p>Más información sobre Nigüelas</p>
+              </a>
+            </div>
+            <div class="link-container">
+              <a href="./links.html">
+                <picture class="img-adapted">
+                  <source srcset="./images/info.webp" type="image/webp">
+                  <source srcset="./images/info.jpg" type="image/jpeg"> 
+                  <img src="./images/info.jpg" alt="Enlaces a las fuentes" loading="lazy">
+                </picture>
+                  <p>Enlaces</p>
+                  <p>Fuentes del contenido</p>
+              </a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </main>
+    
+  
+  <footer>
+    <img src="./images/new_logo.svg" alt="logo escudo" loading="lazy">
+    <ul>
+      <li>Made with <span class="footer-heart">&#9829;</span> by Laura Corral López</li>
+      <li>2023</li>
+      <li><a href="./categories.html">Categorías</a></li>
+      <li><a href="./presentation.html">Presentación</a></li>
+      <li><a href="./links.html">Enlaces</a></li>
+    </ul>
+  </footer>
+
+</body>
+
+</html>
