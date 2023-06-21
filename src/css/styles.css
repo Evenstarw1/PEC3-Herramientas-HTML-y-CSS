@@ -146,6 +146,11 @@ span {
 
 /* == INDEX == */
 
+.img-adapted {
+  width: 100%;
+  height: auto;
+}
+
 .white-container {
   background-color: #e7e7e7;
   margin: 20px 50px;
@@ -183,6 +188,7 @@ span {
 
 .white-container img {
   width: 300px;
+  height: auto;
 }
 
 .principal-img img {
@@ -191,6 +197,7 @@ span {
   border-radius: 20px;
   display: block;
   margin: auto;
+  height: auto;
 }
 
 @keyframes moveit {
@@ -678,4 +685,5 @@ footer a {
 
 footer img {
   width: 150px;
+  height: auto;
 }
