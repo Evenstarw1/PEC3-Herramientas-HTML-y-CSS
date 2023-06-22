@@ -7,6 +7,7 @@
     <link rel="icon" href="images/new_logo.ico" sizes="any">
     <link rel="icon" href="images/new_logo.svg" type="image/svg+xml">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="../node_modules/lazysizes/lazysizes.min.js" async=""></script>
     <script defer type="module" src="video.js"></script>
   </head>
 
@@ -121,12 +122,15 @@
           <img src="./images/play.png" alt="play video" loading="lazy" width="100%" height="100%" class="play">
           <figure class="embed-container">
             <iframe
-              loading="lazy"
               width="560"
               height="315"
-              src="https://www.youtube.com/embed/bsbJ3xaOdpQ"
+              data-src="https://www.youtube.com/embed/bsbJ3xaOdpQ"
+              class="lazyload"
               title="YouTube video player"
-            ></iframe>
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write;
+                   encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
             <figcaption>Video del sendero La Pavilla</figcaption>
           </figure>
         </div>
